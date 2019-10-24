@@ -1,9 +1,9 @@
 # chip2heat
 
 ## wrapper of deeptools to easly produce promoter heatmap on CHIP sequencing data starting from bigwig and bed files
-# usage : sh heat2chip.sh exemple.bigwig exemple.bed
-# dependencies : python > 3.7 & deeptools > 3.1.3
-# description : the wrapper save the heatmap in three format pdf, svg and png in a folder which parse the bed file name. Regions explored in the heatmap are +/- 5kb around the center
+- usage : sh heat2chip.sh exemple.bigwig exemple.bed
+- dependencies : python > 3.7 & deeptools > 3.1.3
+- description : the wrapper save the heatmap in three format pdf, svg and png in a folder which parse the bed file name. Regions explored in the heatmap are +/- 5kb around the center
 
 
 ![image](https://github.com/cdesterke/chip2heat/blob/master/output.png)
